@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <style>
+        #age {
+            width: 50px;
+            margin-right: 100px;
+        }
+    </style>
+
+    <title>TP6</title>
+
+</head>
+
+<body>
+    <h1>Contacto</h1>
+    <h2>Complete sus datos</h2>
+    <form id="form" style="width: 350px; background-color:darkslateblue; border-radius: 10px 10px 10px 10px;">
+        <label for="name">Nombre:</label><br><br>
+        <input type="text" id="name" value="Ingrese su nombre"><br>
+        <p id="errorName" class="error"> Dato no ingresado</p><br>
+        <label for="lname">Apellido:</label><br>
+        <input type="text" id="lname" value="Ingrese su apellido"><br>
+        <p id="errorLname" class="error"> Dato no ingresado</p><br>
+        <label for="birth">Fecha de nacimiento:</label><br>
+        <input type="date" id="birth" value="Ingrese su fecha de nacimiento" name="birth"><br>
+        <p id="errorBirth" class="error"> Dato no ingresado</p><br>
+        <label for="age">Edad:</label><br>
+        <input type="number" id="age" value="" name="age"><br>
+        <input type="radio" name="options" id="fem" name="fem" value="fem">
+        <label for="fem">Femenino</label><br><br>
+        <input type="radio" name="options" id="masc" name="masc" value="masc">
+        <label for="masc">Masculino</label><br><br>
+        <input type="radio" name="options" id="other" name="other" value="other">
+        <label for="other">Otro</label><br><br>
+        <label for="mail">Email:</label><br>
+        <input type="text" id="mail" value="Ingrese su email"><br>
+        <p id="errorMail" class="error"> Dato no ingresado</p><br>
+        <label for="phone">Número de teléfono:</label><br>
+        <input type="text" id="phone" value="Ingrese su número de teléfono"><br>
+        <p id="errorPhone" class="error"> Dato no ingresado</p><br>
+        <button id="button">Enviar</button>
+        <button id="button2">Borrar</button>
+    </form>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

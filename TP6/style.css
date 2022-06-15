@@ -1,0 +1,47 @@
+#form {
+    background-color: crimson;
+    font-family: cursive;
+    height: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: blueviolet;
+    font-size: 50px;
+    font-family: cursive;
+}
+
+h2 {
+    text-align: center;
+    color: blueviolet;
+    font-size: 30px;
+    font-family: cursive;
+}
+
+body {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/003/341/640/non_2x/cute-fun-seamless-pattern-of-cats-or-kittens-on-black-background-vector.jpg");
+}
+
+#form label {
+    padding: 10px;
+    font-weight: bold;
+}
+
+#form input {
+    color: darkgrey;
+}
+
+#button {
+    margin-top: 20px;
+    width: 200px;
+    text-align: center;
+}
+
+.error {
+    color: darkred;
+    width: 300px;
+    font-weight: bold;
+    font-size: 15px;
+}
